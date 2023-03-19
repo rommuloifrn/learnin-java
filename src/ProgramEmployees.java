@@ -12,7 +12,7 @@ public class ProgramEmployees {
 		System.out.println("Digite o número de funcionários:");
 		int employeesAmount = sc.nextInt();
 		
-		for (int i=0; i<employeesAmount; i++) {
+		for (int i=1; i<=employeesAmount; i++) {
 			System.out.printf("Insira o nome do funcionário %d:", i);
 			sc.nextLine();
 			String name = sc.nextLine();
@@ -28,7 +28,7 @@ public class ProgramEmployees {
 		/* A linha abaixo faz um ponteiro para o empregado cujo id foi digitado. */
 		Employee lucky = employees.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
 		if (lucky != null) {
-			System.out.println("E o aumento de salário: (%%)");
+			System.out.println("E o aumento de salário: (em porcentagem)");
 			double raise = sc.nextDouble();
 			lucky.raiseWage(raise);
 		} else {
