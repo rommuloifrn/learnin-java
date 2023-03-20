@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class ProgramLists {
+	// Exercício de listas
 	public static void main(String[] args) {
 		// listas não aceitam tipos primitivos
 		List<String> list = new ArrayList<>();

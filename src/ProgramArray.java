@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class ProgramArray {
+	// Exercício de arrays
 	public static void main(String[] args) {
 		// ctrl shift o = resolve erro
 		Scanner sc = new Scanner(System.in);

@@ -5,6 +5,7 @@ import java.util.Scanner;
 import entities.Employee;
 
 public class ProgramEmployees {
+	// Mais um exercício de listas
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		List<Employee> employees = new ArrayList<>();
@@ -13,6 +14,7 @@ public class ProgramEmployees {
 		int employeesAmount = sc.nextInt();
 		
 		for (int i=1; i<=employeesAmount; i++) {
+			/* Essa minha versão do programa não precisa de verificação de ID, pois ele é definido pelo próprio laço for. */
 			System.out.printf("Insira o nome do funcionário %d:", i);
 			sc.nextLine();
 			String name = sc.nextLine();
