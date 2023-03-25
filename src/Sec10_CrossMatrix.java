@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProgramCrossMatrix {
+public class Sec10_CrossMatrix {
 	/* Esse programa lê altura, largura e elementos de uma matriz, um valor que esteja nela e depois mostra
 	 * os elementos acima, abaixo, à esquerda e à direita do valor inserido. */
 	public static void main(String[] args) {

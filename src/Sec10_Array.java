@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProgramArray {
+public class Sec10_Array {
 	// Exercício de arrays
 	public static void main(String[] args) {
 		// ctrl shift o = resolve erro

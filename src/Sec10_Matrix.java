@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ProgramMatrix {
+public class Sec10_Matrix {
 	// Exercício de matrizes
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

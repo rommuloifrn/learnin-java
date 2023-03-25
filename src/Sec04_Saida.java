@@ -1,6 +1,6 @@
 import java.util.Locale;
 
-public class ProgramSaida {
+public class Sec04_Saida {
 // Exercício de saída, primeiras aulas
 	public static void main(String[] args) {
 		System.out.print("Olá, bicho. Não vou quebrar essa linha.");

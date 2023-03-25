@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import entities.Room;
 
-public class ProgramPensionato {
+public class Sec10_Pensionato {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
