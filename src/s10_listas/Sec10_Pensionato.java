@@ -1,3 +1,4 @@
+package s10_listas;
 import java.util.Scanner;
 import entities.Room;
 

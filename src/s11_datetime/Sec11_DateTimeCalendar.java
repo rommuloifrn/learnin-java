@@ -1,3 +1,4 @@
+package s11_datetime;
 import java.time.Instant;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -10,7 +11,7 @@ public class Sec11_DateTimeCalendar {
 		Scanner sc = new Scanner(System.in);
 		
 		LocalDate myDate = LocalDate.parse("2022-07-20");
-		LocalDateTime myDateTime = LocalDateTime.parse("2022-07-20T01:30:26");
+		//LocalDateTime myDateTime = LocalDateTime.parse("2022-07-20T01:30:26");
 		Instant myInstant = Instant.parse("2022-07-20T01:30:26Z");
 		
 		// O comando abaixo lista todas as zones utilizáveis (em extenso)

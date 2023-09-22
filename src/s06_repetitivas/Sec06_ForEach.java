@@ -1,3 +1,4 @@
+package s06_repetitivas;
 
 public class Sec06_ForEach {
 	public static void main(String[] args) {

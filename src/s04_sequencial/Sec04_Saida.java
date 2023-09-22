@@ -1,3 +1,4 @@
+package s04_sequencial;
 import java.util.Locale;
 
 public class Sec04_Saida {
