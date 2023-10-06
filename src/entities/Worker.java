@@ -30,7 +30,7 @@ public class Worker {
 	}
 	
 	public Double income(Integer year, Integer month ) {
-		Double total = 0.0;
+		Double total = baseSalary;
 		for (int i=0; i<contracts.size(); i++) {
 			HourContract contract = contracts.get(i);
 			LocalDate contractDate = contract.getDate();

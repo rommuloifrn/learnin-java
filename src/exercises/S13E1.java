@@ -12,8 +12,21 @@ import enums.WorkerLevel;
 public class S13E1 {
 	public static void main (String args[]) {
 		Scanner sc = new Scanner(System.in);
-		Department contabilidade = new Department("contabilidade");
-		Worker zezin = new Worker("zezin", WorkerLevel.MID_LEVEL, 2400.00, contabilidade);
+		
+		System.out.println("enter worker name:");
+		String name = sc.next();
+		System.out.println("enter worker level:");
+		String level = sc.next();
+		System.out.println("enter worker salary:");
+		Double salary = sc.nextDouble();
+		System.out.println("enter worker department:");
+		String department = sc.next();
+		Department dep = new Department(department);
+		
+		
+		
+		
+		Worker zezin = new Worker(name, WorkerLevel.valueOf(level), salary, dep);
 		
 		System.out.println("enter number of contracts:");
 		int n = sc.nextInt();
@@ -37,6 +50,6 @@ public class S13E1 {
 		
 		
 		
-		
+		sc.close();
 	}
 }
