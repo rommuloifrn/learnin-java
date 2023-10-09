@@ -10,6 +10,11 @@ public class SavingsAccount extends Account {
 	public void updateBalance() {
 		balance += balance * interestRate;
 	}
+	
+	@Override
+	public void withdraw(Double amount) {
+		balance -= amount;
+	}
 
 	public SavingsAccount(Integer number, String holder, Double balance, Double interestRate) {
 		super(number, holder, balance);
@@ -23,5 +28,5 @@ public class SavingsAccount extends Account {
 	public void setInterestRate(Double interestRate) {
 		this.interestRate = interestRate;
 	}
-		
+
 }
