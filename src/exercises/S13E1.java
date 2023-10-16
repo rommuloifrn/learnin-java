@@ -7,7 +7,7 @@ import java.util.Scanner;
 import entities.Department;
 import entities.HourContract;
 import entities.Worker;
-import enums.WorkerLevel;
+import entities.enums.WorkerLevel;
 
 public class S13E1 {
 	public static void main (String args[]) {

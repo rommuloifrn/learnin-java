@@ -3,7 +3,7 @@ package entities;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-import enums.WorkerLevel;
+import entities.enums.WorkerLevel;
 
 public class Worker {
 	private String name;
