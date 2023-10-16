@@ -16,10 +16,10 @@ public class S13E3 {
 		int n = sc.nextInt();
 		
 		for (int i=0; i<n; i++) {
-			Employee2 emp;
-			System.out.printf("employee %d:\n", i);
+			Employee2 emp; boolean outsourced;
+			System.out.printf("employee %d:\n", i+1);
 			System.out.println("ousourced? (y/n)");
-			char outsourced = sc.next().charAt(0);
+			if (sc.next().charAt(0) == 'y') outsourced = true; else outsourced = false;
 			System.out.println("name:");
 			String name = sc.next();
 			System.out.println("hours:");
@@ -27,7 +27,11 @@ public class S13E3 {
 			System.out.println("value per hour:");
 			Double value = sc.nextDouble();
 			
-			if (outsourced == 'y') emp = new OutsourcedEmployee(name, hours, value);
+			if (outsourced) {
+				System.out.println("additional charge:");
+				Double additionalCharge = sc.nextDouble();
+				emp = new OutsourcedEmployee(name, hours, value, additionalCharge);
+			} 
 			else emp = new Employee2(name, hours, value);
 			
 			arr.add(emp);
