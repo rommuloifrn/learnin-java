@@ -1,5 +1,4 @@
 /entities/
-/enums/
 /exercises/
 /s04_sequencial/
 /s06_repetitivas/
@@ -7,3 +6,4 @@
 /s11_datetime/
 /s13_enums_composicao/
 /s14_heranca_polimorfismo/
+/s15_excecoes/
